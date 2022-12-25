@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import NavBar from "./components/NavBar";
+import TextBox from "./components/TextBox";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <NavBar
+        title="TextConverter"
+        home="Home"
+        link="Link"
+        dropdown="Dropdown"
+        action="Action"
+        Anotheraction="Another Action"
+        Somethingelsehere="Something else here"
+        search="Search"
+       
+      />
+      <TextBox heading="Text converter box"></TextBox>
     </div>
   );
 }
