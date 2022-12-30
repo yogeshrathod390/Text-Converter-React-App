@@ -60,7 +60,7 @@ function App() {
         <Route each path="/about" element={<About></About>} />
         <Route each path="/" element= {<TextBox showAlert={showAlert} mode={mode} heading="Enter the text to analyze below"></TextBox>} />
       </Routes> */}
-      <TextBox showAlert={showAlert} mode={mode} heading="Enter the text to analyze below"></TextBox>}
+      <TextBox showAlert={showAlert} mode={mode} heading="Enter the text to analyze below"></TextBox>
       </div>
      {/* </Router> */}
       </>
